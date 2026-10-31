@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ninja Run - Game Design | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         EXPRESSIVE DYNAMIC CURSOR
+         ========================================== -->
+
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+
+
+    <!-- ==========================================
+         DYNAMIC BACKGROUND
+         ========================================== -->
+
+    <div class="dynamic-bg" id="dynamicBg">
+
+        <video id="bgVideo1"
+            class="bg-video"
+            autoplay
+            muted
+            playsinline>
+
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+
+        </video>
+
+
+        <video id="bgVideo2"
+            class="bg-video"
+            muted
+            playsinline
+            style="opacity: 0;">
+
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+
+        </video>
+
+
+        <div class="bg-overlay"></div>
+
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <div class="bg-project-preview" id="bgPreview"></div>
+
+    </div>
+
+
+
+    <!-- ==========================================
+         NAVIGATION
+         ========================================== -->
+
+    <nav class="main-nav">
+
+        <a href="index.html"
+            class="nav-logo"
+            id="navLogo"
+            title="Home">
+
+            <img src="IMG/MyLogo.png"
+                alt="Logo"
+                class="logo-img">
+
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="index.html#portfolio">
+                Portfolio
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ==========================================
+         PROJECT PAGE
+         ========================================== -->
+
+    <main class="project-page-main">
+
+
+        <div class="tile-wrapper project-main-tile">
+
+            <div class="tile-bg"></div>
+
+
+
+            <!-- ======================================
+                 RETURN BUTTON
+                 ====================================== -->
+
+            <a href="index.html#portfolio"
+                class="tile-button tile-button-top-right">
+
+                Return
+
+            </a>
+
+
+
+            <div class="tile-content project-single-container">
+
+
+
+                <!-- ======================================
+                     PROJECT INTRO
+                     IMAGE LEFT + TEXT RIGHT
+                     ====================================== -->
+
+                <section class="project-hero-row">
+
+
+                    <!-- LEFT: MAIN IMAGE -->
+
+                    <div class="project-hero-left">
+
+                        <img src="IMG/2DGame.png"
+                            alt="Ninja Run - Game Design"
+                            class="project-hero-img-clean">
+
+                    </div>
+
+
+
+                    <!-- RIGHT: PROJECT INFORMATION -->
+
+                    <div class="project-hero-right">
+
+
+                        <h1 class="project-title">
+
+                            Ninja Run - Game Design
+
+                        </h1>
+
+
+
+                        <div class="project-editorial-meta">
+
+                            <span>
+                                <strong>YEAR:</strong> 2026
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>CLIENT:</strong> CMD Breda
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>DISCIPLINE:</strong> Creative Technology
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>TOOLS:</strong>
+                                Blender, Unity and Visual Studio Code
+                            </span>
+
+                        </div>
+
+
+
+                        <div class="project-intro-text">
+
+                            <p>
+
+                                A fast-paced Unity game that combines responsive
+                                controls, combat and progressive difficulty in a
+                                cyberpunk setting. Players guide a ninja through
+                                the city, collecting coins while deflecting or
+                                avoiding incoming shurikens. The increasing pace
+                                creates a simple but engaging gameplay loop
+                                focused on timing, interaction and visual feedback.
+
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     ADDITIONAL VISUALS
+                     ====================================== -->
+
+                <section class="project-visuals-section">
+
+
+                    <h2>
+                        Additional Visuals
+                    </h2>
+
+
+
+                    <div class="project-visuals-grid">
+
+
+                        <!-- IMAGE 1 -->
+
+                        <div class="project-visual">
+
+                            <img src="IMG/foto 2D game 2.png"
+                                alt="Mockup Poster">
+
+                        </div>
+
+
+
+                        <!-- IMAGE 2 -->
+
+                        <div class="project-visual">
+
+                            <img src="IMG/foto 2D game 3.png"
+                                alt="Purpose and Concept Visual">
+
+                        </div>
+
+
+                        <!-- VIDEO 3 -->
+
+                        <div class="project-visual" style="grid-column:1 / -1; width:min(100%, 760px); justify-self:center; border-radius:0 !important; overflow:hidden;">
+
+                            <!-- Plaats je video in de IMG-map met de naam NinjaRun-video.mp4 -->
+                            <video
+                                src="IMG/Arcadegame video.mp4"
+                                controls
+                                autoplay
+                                muted
+                                loop
+                                playsinline
+                                preload="metadata"
+                                aria-label="Ninja Run projectvideo"
+                                style="width:100%;height:auto;max-height:75vh;object-fit:contain;display:block;margin:0 auto;border-radius:0 !important;">
+                            </video>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     PROCESS & REFLECTION
+                     ====================================== -->
+
+                <section class="compact-process">
+
+
+                    <h2 class="compact-label">
+
+                        Process & Reflection
+
+                    </h2>
+
+
+
+                    <div class="compact-copy">
+
+
+                        <p>
+
+                            I started by exploring the visual direction and atmosphere of the game,
+                            before building the core gameplay in Unity.
+
+                        </p>
+
+
+                        <p>
+
+                            I focused on responsive movement, clear interactions and a consistent cyberpunk
+                            environment.
+
+                        </p>
+
+
+                        <p>
+
+                            This project taught me how visual design, animation, UI and game mechanics
+                            can work together to create an interactive experience.
+
+                        </p>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+         ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

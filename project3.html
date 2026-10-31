@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project 3 — Template | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         EXPRESSIVE DYNAMIC CURSOR
+         ========================================== -->
+
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+
+
+    <!-- ==========================================
+         DYNAMIC BACKGROUND
+         ========================================== -->
+
+    <div class="dynamic-bg" id="dynamicBg">
+
+        <video id="bgVideo1"
+            class="bg-video"
+            autoplay
+            muted
+            playsinline>
+
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+
+        </video>
+
+
+        <video id="bgVideo2"
+            class="bg-video"
+            muted
+            playsinline
+            style="opacity: 0;">
+
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+
+        </video>
+
+
+        <div class="bg-overlay"></div>
+
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <div class="bg-project-preview" id="bgPreview"></div>
+
+    </div>
+
+
+
+    <!-- ==========================================
+         NAVIGATION
+         ========================================== -->
+
+    <nav class="main-nav">
+
+        <a href="index.html"
+            class="nav-logo"
+            id="navLogo"
+            title="Home">
+
+            <img src="IMG/MyLogo.png"
+                alt="Logo"
+                class="logo-img">
+
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="index.html#portfolio">
+                Portfolio
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ==========================================
+         PROJECT PAGE
+         ========================================== -->
+
+    <main class="project-page-main">
+
+
+        <div class="tile-wrapper project-main-tile">
+
+            <div class="tile-bg"></div>
+
+
+
+            <!-- ======================================
+                 RETURN BUTTON
+                 ====================================== -->
+
+            <a href="index.html#portfolio"
+                class="tile-button tile-button-top-right">
+
+                Return
+
+            </a>
+
+
+
+            <div class="tile-content project-single-container">
+
+
+
+                <!-- ======================================
+                     PROJECT INTRO
+                     IMAGE LEFT + TEXT RIGHT
+                     ====================================== -->
+
+                <section class="project-hero-row">
+
+
+                    <!-- LEFT: MAIN IMAGE -->
+
+                    <div class="project-hero-left">
+
+                        <!-- TEMPLATE: Vervang src met je projectafbeelding -->
+                        <img src="IMG/ijscontroller.png"
+                            alt="Project afbeelding"
+                            class="project-hero-img-clean">
+
+                    </div>
+
+
+
+                    <!-- RIGHT: PROJECT INFORMATION -->
+
+                    <div class="project-hero-right">
+
+
+                        <h1 class="project-title">
+
+                            <!-- TEMPLATE: Vul hier de projecttitel in -->
+                            MELTDOWN - Discursive Design
+
+                        </h1>
+
+
+
+                        <div class="project-editorial-meta">
+
+                            <span>
+                                <strong>YEAR:</strong>
+                                <!-- TEMPLATE: Jaar --> 2026
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>CLIENT:</strong>
+                                <!-- TEMPLATE: Opdrachtgever --> CMD Breda
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>DISCIPLINE:</strong>
+                                <!-- TEMPLATE: Discipline --> Discursive Design
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>TOOLS:</strong>
+                                <!-- TEMPLATE: Tools --> Photoshop, Physical items, Premiere Pro
+                            </span>
+
+                        </div>
+
+
+
+                        <div class="project-intro-text">
+
+                            <p>
+                                <!-- TEMPLATE: Korte projectbeschrijving -->
+                                MELTDOWN explores the relationship between control, reward and player behaviour. A game controller promises control, but what happens when that control slowly slips away?
+
+I designed a functional game controller made entirely of ice. As players continue to play, the controller gradually melts, becoming increasingly uncomfortable and difficult to hold. Despite this, the desire to keep playing remains.
+
+The project questions how reward systems influence our behaviour and how easily we can be drawn into continuing, even when the experience becomes less comfortable. It challenges the idea of control by making the player physically experience the very system that keeps them engaged.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     ADDITIONAL VISUALS
+                     ====================================== -->
+
+                <section class="project-visuals-section">
+
+
+                    <h2>
+                        Additional Visuals
+                    </h2>
+
+
+
+                    <div class="project-visuals-grid">
+
+
+                        <!-- IMAGE 1 -->
+
+                        <div class="project-visual" style="border-radius:0 !important; overflow:hidden;">
+
+                            <!-- TEMPLATE: Vervang src met je eerste visual -->
+                            <img src="IMG/ijscontrollerr.jpg"
+                                alt="Project Visual 1"
+                                style="border-radius:0 !important; clip-path:inset(0) !important;">
+
+                        </div>
+
+
+
+                        <!-- IMAGE 2 -->
+
+                        <div class="project-visual">
+
+                            <!-- TEMPLATE: Vervang src met je tweede visual -->
+                            <img src="IMG/knolling controller.png"
+                                alt="Project Visual 2">
+
+                        </div>
+
+
+                        <!-- VIDEO 3 -->
+
+                        <div class="project-visual" style="grid-column:1 / -1; width:min(100%, 760px); justify-self:center; border-radius:0 !important; overflow:hidden;">
+
+                            <!-- Plaats je video in de IMG-map met de naam MELTDOWN-video.mp4 -->
+                            <video
+                                src="IMG/ijscontroller video kortt (EXPO).mp4"
+                                controls
+                                autoplay
+                                muted
+                                loop
+                                playsinline
+                                preload="metadata"
+                                aria-label="MELTDOWN projectvideo"
+                                style="width:100%;height:auto;max-height:75vh;object-fit:contain;display:block;margin:0 auto;border-radius:0 !important;">
+                            </video>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     PROCESS & REFLECTION
+                     ====================================== -->
+
+                <section class="compact-process">
+
+
+                    <h2 class="compact-label">
+
+                        Process & Reflection
+
+                    </h2>
+
+
+
+                    <div class="compact-copy">
+
+
+                        <p>
+                            <!-- TEMPLATE: Eerste alinea over het proces -->
+                            The process started with researching reward systems in games and how they influence player behaviour. I questioned the relationship between control and the urge to keep playing, looking for a way to make this tension physically tangible. This led me to experiment with ice as an unconventional material for a game controller, using its changing properties to challenge the way players interact with familiar technology.
+                        </p>
+
+
+                        <p>
+                            <!-- TEMPLATE: Tweede alinea over reflectie -->
+                            The final result is a functional ice controller that gradually melts during gameplay. By combining an interactive object with an unexpected material, the project makes players experience the tension between control, discomfort and reward. It challenged me to think about design beyond functionality and explore how an object can communicate an idea and question everyday behaviour.
+                        </p>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+         ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

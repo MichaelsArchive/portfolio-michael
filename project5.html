@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCENT ORCHESTRA | Concept & Experience Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- DYNAMIC BACKGROUND -->
+    <div class="dynamic-bg" id="dynamicBg">
+        <video id="bgVideo1" class="bg-video" autoplay muted playsinline>
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+        </video>
+        <video id="bgVideo2" class="bg-video" muted playsinline style="opacity: 0;">
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+        </video>
+        <div class="bg-overlay"></div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="bg-project-preview" id="bgPreview"></div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="main-nav">
+        <a href="index.html" class="nav-logo" id="navLogo" title="Home">
+            <img src="IMG/MyLogo.png" alt="Logo" class="logo-img">
+        </a>
+        <div class="nav-links">
+            <a href="index.html#portfolio">Portfolio</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- PROJECT PAGE -->
+    <main class="project-page-main">
+        <div class="tile-wrapper project-main-tile">
+            <div class="tile-bg"></div>
+            <a href="index.html#portfolio" class="tile-button tile-button-top-right">Return</a>
+
+            <div class="tile-content project-single-container">
+                <!-- PROJECT INTRO: IMAGE LEFT + TEXT RIGHT -->
+                <section class="project-hero-row">
+                    <div class="project-hero-left" style="position: relative; width: 100%; min-width: 0; aspect-ratio: 970 / 1024; overflow: hidden; border-radius: 10px;">
+                        <img src="IMG/makenn.jpg"
+                             alt="Scent Orchestra project afbeelding"
+                             class="project-hero-img-clean"
+                             style="position: absolute; inset: 0; display: block; width: 100%; height: 100%; max-width: none; object-fit: contain; object-position: center center; border-radius: inherit;">
+                    </div>
+
+                    <div class="project-hero-right">
+                        <h1 class="project-title">Scent Orchestra - Concept &amp; Experience Design</h1>
+
+                        <div class="project-editorial-meta">
+                            <span><strong>YEAR:</strong> 2026</span>
+                            <span class="meta-dot">·</span>
+                            <span><strong>CLIENT:</strong> Scentronix</span>
+                            <span class="meta-dot">·</span>
+                            <span><strong>DISCIPLINE:</strong> Collective</span>
+                            <span class="meta-dot">·</span>
+                            <span><strong>TOOLS:</strong></span> Physical Items, AI
+                        </div>
+
+                        <div class="project-intro-text">
+                            <p>Scent Orchestra is a concept that brings people together through scent and shared experiences. Based on Tuckman's stages of group development — Forming, Storming, Norming and Performing — participants move through a series of interactions, gradually creating a shared fragrance that represents their group identity. The experience explores how scent, collaboration and interaction can turn a group into something personal and recognisable.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="editorial-divider">
+
+                <!-- ADDITIONAL VISUALS -->
+                <section class="project-visuals-section">
+                    <h2>Additional Visuals</h2>
+                    <div class="project-visuals-grid">
+                        <div class="project-visual" style="border-radius:0 !important; overflow:hidden;">
+                            <img src="IMG/experiementt aroma.png" alt="Project Visual 1" style="border-radius:0 !important;">
+                        </div>
+                        <div class="project-visual" style="border-radius:0 !important; overflow:hidden;">
+                            <img src="IMG/user journeyy.png" alt="Project Visual 2" style="border-radius:0 !important;">
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="editorial-divider">
+
+                <!-- PROCESS & REFLECTION -->
+                <section class="compact-process">
+                    <h2 class="compact-label">Process &amp; Reflection</h2>
+                    <div class="compact-copy">
+                        <p>The process focused on translating Tuckman's group development model into a tangible and interactive experience. I explored how each stage could be represented through activities, sensory elements and moments of interaction. By connecting the four stages, I developed a sequence of experiences that guides participants towards creating their own shared fragrance.</p>
+                        <p>The final concept transforms group development into a shared sensory ritual, resulting in a fragrance unique to each group. This project allowed me to explore how interaction and sensory design can bring people together and turn an abstract concept into a tangible experience.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

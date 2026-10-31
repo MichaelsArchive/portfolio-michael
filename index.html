@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Communication & Multimedia Design</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         EXPRESSIVE CURSOR
+         ===================================================== -->
+
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+
+    <!-- =====================================================
+         DYNAMIC BACKGROUND
+         ===================================================== -->
+
+    <div class="dynamic-bg" id="dynamicBg">
+
+        <video id="bgVideo1" class="bg-video" autoplay muted playsinline>
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+        </video>
+
+        <video id="bgVideo2" class="bg-video" muted playsinline style="opacity: 0;">
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+        </video>
+
+        <div class="bg-overlay"></div>
+
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <div class="bg-project-preview" id="bgPreview"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         NAVIGATION
+         ===================================================== -->
+
+    <nav class="main-nav">
+
+        <a href="index.html"
+            class="nav-logo"
+            id="navLogo"
+            title="Home">
+
+            <img
+                src="IMG/MyLogo.png"
+                alt="Logo"
+                class="logo-img">
+
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="#portfolio">
+                Portfolio
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+         ===================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+             ================================================= -->
+
+        <section
+            id="hero"
+            class="hero-section"
+            data-nav-theme="light">
+
+            <div class="tile-wrapper hero-tile">
+
+                <div class="tile-bg"></div>
+
+
+                <div class="tile-content">
+
+                    <h1>
+                        Exploring how editorial thinking can shape digital experiences.
+                    </h1>
+
+
+                    <p>
+                        I am a Communication & Multimedia Design student based in Breda.
+                        My work explores how editorial thinking can be translated into digital
+                        interfaces using typography, visual composition, and interaction.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="#portfolio"
+                    class="tile-button tile-button-bottom-right">
+
+                    View Projects
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PORTFOLIO
+             ================================================= -->
+
+        <section
+            id="portfolio"
+            class="portfolio-section"
+            data-nav-theme="light">
+
+            <h2 class="section-title">
+                Portfolio
+            </h2>
+
+
+            <div class="portfolio-grid">
+
+
+                <!-- =========================================
+                     PROJECT 1 — ALOF
+                     ========================================= -->
+
+                <div
+                    class="tile-wrapper project-card"
+                    data-preview="IMG/MockupBlikje.png">
+
+                    <div class="tile-bg"></div>
+
+
+                    <div class="tile-content">
+
+
+                        <div class="project-image">
+
+                            <img
+                                src="IMG/MockupBlikje.png"
+                                alt="Editorial Dimensions"
+                                class="project-img-clean">
+
+                        </div>
+
+
+                        <div class="project-text">
+
+                            <h3>
+                                ALOF - Visual Identity
+                            </h3>
+
+
+                            <p>
+                                Building a visual system through organic forms,
+                                typography and composition to shape a calm brand experience.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="project.html"
+                        class="tile-button tile-button-bottom-right">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- =========================================
+                     PROJECT 2
+                     SAME STRUCTURE AS ALOF
+                     ========================================= -->
+
+                <div
+                    class="tile-wrapper project-card"
+                    data-preview="IMG/2DGame.png">
+
+                    <div class="tile-bg"></div>
+
+
+                    <div class="tile-content">
+
+
+                        <!-- IMAGE -->
+                        <div class="project-image">
+
+                            <img
+                                src="IMG/2DGame.png"
+                                alt="Project 2: Digital Worlds"
+                                class="project-img-clean">
+
+                        </div>
+
+
+                        <!-- TEXT -->
+                        <div class="project-text">
+
+                            <h3>
+                                Ninja Run - Game Design
+                            </h3>
+
+
+                            <p>
+                                Designing an interactive 2D game focused on movement, timing and visual feedback.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- BUTTON -->
+                    <a
+                        href="project2.html"
+                        class="tile-button tile-button-bottom-right">
+
+                        View Project
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- =========================================
+                     PROJECT 3
+                     ========================================= -->
+
+                <div
+                    class="tile-wrapper project-card"
+                    data-preview="IMG/ijscontroller.png">
+
+                    <div class="tile-bg"></div>
+
+                    <div class="tile-content">
+                        <div class="project-image">
+                            <img
+                                src="IMG/ijscontroller.png"
+                                alt="Project 3"
+                                class="project-img-clean">
+                        </div>
+
+                        <div class="project-text">
+                            <h3>MELTDOWN - Discursive Design</h3>
+                            <p>How far would you go to keep playing? Exploring the fine line between control, reward and the urge to continue.</p>
+                        </div>
+                    </div>
+
+                    <a
+                        href="project3.html"
+                        class="tile-button tile-button-bottom-right">
+                        View Project
+                    </a>
+
+                </div>
+
+
+                <!-- =========================================
+                     PROJECT 4
+                     ========================================= -->
+
+                <div
+                    class="tile-wrapper project-card"
+                    data-preview="IMG/StuddyBuddy.png">
+
+                    <div class="tile-bg"></div>
+
+                    <div class="tile-content">
+                        <div class="project-image">
+                            <img
+                                src="IMG/StuddyBuddy.png"
+                                alt="Project 4"
+                                class="project-img-clean">
+                        </div>
+
+                        <div class="project-text">
+                            <h3>StudyBuddy - UX Design & Interaction Design</h3>
+                            <p>An AI-powered study companion designed to make learning more personal, structured and accessible.</p>
+                        </div>
+                    </div>
+
+                    <a
+                        href="project4.html"
+                        class="tile-button tile-button-bottom-right">
+                        View Project
+                    </a>
+
+                </div>
+
+
+                <!-- =========================================
+                     PROJECT 5
+                     ========================================= -->
+
+                <div
+                    class="tile-wrapper project-card"
+                    data-preview="IMG/makenn.jpg">
+
+                    <div class="tile-bg"></div>
+
+                    <div class="tile-content">
+                        <div class="project-image">
+                            <img
+                                src="IMG/makenn.jpg"
+                                alt="Project 5"
+                                class="project-img-clean">
+                        </div>
+
+                        <div class="project-text">
+                            <h3>Scent Orchestra - Concept & Experience Design</h3>
+                            <p>Designing a shared ritual where people explore scent, interaction and collaboration to create their own collective identity.</p>
+                        </div>
+                    </div>
+
+                    <a
+                        href="project5.html"
+                        class="tile-button tile-button-bottom-right">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ABOUT
+             ================================================= -->
+
+        <section
+            id="about"
+            class="about-section"
+            data-nav-theme="light">
+
+            <h2 class="section-title">
+                About Me
+            </h2>
+
+
+            <div class="about-layout">
+
+
+                <!-- IMAGE -->
+
+                <div class="tile-wrapper about-image-tile">
+
+                    <div class="tile-bg"></div>
+
+
+                    <div
+                        class="tile-content"
+                        style="padding: 0;">
+
+                        <img
+                            src="IMG/AboutMeFoto.jpg"
+                            alt="About Me Photo"
+                            class="about-me-img">
+
+                    </div>
+
+
+                    <a
+                        href="#contact"
+                        class="tile-button tile-button-bottom-right">
+
+                        Say Hello
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- TEXT -->
+
+                <div class="tile-wrapper about-text-tile">
+
+                    <div class="tile-bg"></div>
+
+
+                    <div class="tile-content about-text">
+
+                        <p>
+                            Hello I’m Michael !
+                            <br>
+                            A second-year Communication & Multimedia Design student
+                            based in Breda, exploring the space between editorial design,
+                            digital interfaces and technology. I’m interested in how visual
+                            language can shape the way people read, navigate and experience
+                            information.
+                            </br>
+                        </p>
+
+
+                        <p>
+                            I’m fascinated by creating experiences, atmospheres and worlds
+                            through design, and by how typography, imagery, interaction and
+                            technology can work together to make them feel alive. My ambition
+                            is to explore how editorial thinking can translate into digital
+                            spaces and become more interactive, personal and engaging.
+                        </p>
+
+                    </div>
+
+
+                    <a
+                        href="#portfolio"
+                        class="tile-button tile-button-bottom-right">
+
+                        My Work
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTACT
+             ================================================= -->
+
+        <section
+            id="contact"
+            class="contact-section"
+            data-nav-theme="light">
+
+            <div class="tile-wrapper contact-tile">
+
+                <div class="tile-bg"></div>
+
+
+                <div class="tile-content contact-content">
+
+
+                    <h2>
+                        Let's Work Together!
+                    </h2>
+
+
+                    <p>
+                        Have an idea, a project, or simply want to say hello?
+                        <br>
+                        Let's create something meaningful together.
+                    </p>
+
+
+                    <div class="contact-cta">
+
+
+                        <h3>
+                            Get In Touch
+                        </h3>
+
+
+                        <a
+                            href="mailto:Mkmnr@hotmail.com"
+                            class="email-link">
+
+                            Mkmnr@hotmail.com
+
+
+                            <span class="hover-arrow">
+
+                                <svg
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2">
+
+                                    <path
+                                        d="M7 17L17 7M17 7H7M17 7V17" />
+
+                                </svg>
+
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="mailto:Mkmnr@hotmail.com"
+                    class="tile-button tile-button-bottom-right">
+
+                    Email Me
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ALOF - Visual Identity | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* ALOF: alleen de tweede Additional Visual krijgt rechte randen. */
+        .project-visuals-section .project-visual:nth-child(2),
+        .project-visuals-section .project-visual:nth-child(2) img {
+            border-radius: 0 !important;
+            clip-path: none !important;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         EXPRESSIVE DYNAMIC CURSOR
+         ========================================== -->
+
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+
+
+    <!-- ==========================================
+         DYNAMIC BACKGROUND
+         ========================================== -->
+
+    <div class="dynamic-bg" id="dynamicBg">
+
+        <video id="bgVideo1"
+            class="bg-video"
+            autoplay
+            muted
+            playsinline>
+
+            <source src="IMG/BGVideo1.mp4">
+
+        </video>
+
+
+        <video id="bgVideo2"
+            class="bg-video"
+            muted
+            playsinline
+            style="opacity: 1;">
+
+            <source src="IMG/BGVideo1.mp4">
+
+        </video>
+
+
+        <div class="bg-overlay"></div>
+
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <div class="bg-project-preview" id="bgPreview"></div>
+
+    </div>
+
+
+
+    <!-- ==========================================
+         NAVIGATION
+         ========================================== -->
+
+    <nav class="main-nav">
+
+        <a href="index.html"
+            class="nav-logo"
+            id="navLogo"
+            title="Home">
+
+            <img src="IMG/MyLogo.png"
+                alt="Logo"
+                class="logo-img">
+
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="index.html#portfolio">
+                Portfolio
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ==========================================
+         PROJECT PAGE
+         ========================================== -->
+
+    <main class="project-page-main">
+
+
+        <div class="tile-wrapper project-main-tile">
+
+            <div class="tile-bg"></div>
+
+
+
+            <!-- ======================================
+                 RETURN BUTTON
+                 ====================================== -->
+
+            <a href="index.html#portfolio"
+                class="tile-button tile-button-top-right">
+
+                Return
+
+            </a>
+
+
+
+            <div class="tile-content project-single-container">
+
+
+
+                <!-- ======================================
+                     ORIGINAL PROJECT INTRO
+                     IMAGE LEFT + TEXT RIGHT
+                     ====================================== -->
+
+                <section class="project-hero-row">
+
+
+                    <!-- LEFT: MAIN IMAGE -->
+
+                    <div class="project-hero-left">
+
+                        <img src="IMG/MockupBlikje.png"
+                            alt="ALOF Visual Identity"
+                            class="project-hero-img-clean">
+
+                    </div>
+
+
+
+                    <!-- RIGHT: PROJECT INFORMATION -->
+
+                    <div class="project-hero-right">
+
+
+                        <h1 class="project-title">
+
+                            ALOF - Visual Identity
+
+                        </h1>
+
+
+
+                        <div class="project-editorial-meta">
+
+                            <span>
+                                <strong>YEAR:</strong> 2026
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>CLIENT:</strong> CMD Breda
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>DISCIPLINE:</strong> Media Design
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>TOOLS:</strong>
+                                Photoshop, Illustrator and Indesign
+                            </span>
+
+                        </div>
+
+
+
+                        <div class="project-intro-text">
+
+                            <p>
+
+                                ALOF is a conceptual hydration brand focused on
+                                balance, focus and recovery. Starting from the idea
+                                of recovery water, I explored associations such as
+                                ice, water, cooling and freshness before developing
+                                the brand name ALOF. I developed a visual identity
+                                built around soft organic shapes, cool tones and
+                                bold typography, creating a calm and modern feel
+                                that reflects movement and recovery. I translated
+                                this visual language into packaging and poster
+                                applications, exploring how a consistent identity
+                                can work across different touchpoints.
+
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     ADDITIONAL VISUALS
+                     ====================================== -->
+
+                <section class="project-visuals-section">
+
+
+                    <h2>
+                        Additional Visuals
+                    </h2>
+
+
+
+                    <div class="project-visuals-grid">
+
+
+                        <!-- IMAGE 1 -->
+
+                        <div class="project-visual">
+
+                            <img src="IMG/MockupPoster.png"
+                                alt="ALOF Poster">
+
+                        </div>
+
+
+
+                        <!-- IMAGE 2 -->
+
+                        <div class="project-visual">
+
+                            <img src="IMG/InfoProjectOne.png"
+                                alt="ALOF Design Development">
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     PROCESS & REFLECTION
+                     ====================================== -->
+
+                <section class="compact-process">
+
+
+                    <h2 class="compact-label">
+
+                        Process & Reflection
+
+                    </h2>
+
+
+
+                    <div class="compact-copy">
+
+
+                        <p>
+
+                            The process began by exploring how light, texture and
+                            physical forms could shape the visual direction of ALOF.
+                            I translated these experiments into digital layouts,
+                            focusing on the balance between typography, imagery
+                            and the organic shapes I developed.
+
+                        </p>
+
+
+                        <p>
+
+                            Throughout the process, I refined the visual system to
+                            keep the identity calm, clear and cohesive. The final
+                            result showed me how typography, composition and visual
+                            consistency can work together to create a recognisable
+                            experience.
+
+                        </p>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+         ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

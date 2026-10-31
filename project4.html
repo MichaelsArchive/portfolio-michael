@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project 4 — Template | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         EXPRESSIVE DYNAMIC CURSOR
+         ========================================== -->
+
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+
+
+    <!-- ==========================================
+         DYNAMIC BACKGROUND
+         ========================================== -->
+
+    <div class="dynamic-bg" id="dynamicBg">
+
+        <video id="bgVideo1"
+            class="bg-video"
+            autoplay
+            muted
+            playsinline>
+
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+
+        </video>
+
+
+        <video id="bgVideo2"
+            class="bg-video"
+            muted
+            playsinline
+            style="opacity: 0;">
+
+            <source src="IMG/BGVideo1.mp4" type="video/mp4">
+
+        </video>
+
+
+        <div class="bg-overlay"></div>
+
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <div class="bg-project-preview" id="bgPreview"></div>
+
+    </div>
+
+
+
+    <!-- ==========================================
+         NAVIGATION
+         ========================================== -->
+
+    <nav class="main-nav">
+
+        <a href="index.html"
+            class="nav-logo"
+            id="navLogo"
+            title="Home">
+
+            <img src="IMG/MyLogo.png"
+                alt="Logo"
+                class="logo-img">
+
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="index.html#portfolio">
+                Portfolio
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ==========================================
+         PROJECT PAGE
+         ========================================== -->
+
+    <main class="project-page-main">
+
+
+        <div class="tile-wrapper project-main-tile">
+
+            <div class="tile-bg"></div>
+
+
+
+            <!-- ======================================
+                 RETURN BUTTON
+                 ====================================== -->
+
+            <a href="index.html#portfolio"
+                class="tile-button tile-button-top-right">
+
+                Return
+
+            </a>
+
+
+
+            <div class="tile-content project-single-container">
+
+
+
+                <!-- ======================================
+                     PROJECT INTRO
+                     IMAGE LEFT + TEXT RIGHT
+                     ====================================== -->
+
+                <section class="project-hero-row">
+
+
+                    <!-- LEFT: MAIN IMAGE -->
+
+                    <div class="project-hero-left" style="position:relative; width:100%; min-width:0; aspect-ratio:1 / 1; overflow:hidden; border-radius:10px; background:#fff;">
+
+                        <!-- TEMPLATE: Vervang src met je projectafbeelding -->
+                        <img src="IMG/StuddyBuddy.png"
+                            alt="Project afbeelding"
+                            class="project-hero-img-clean"
+                            style="position:absolute; inset:2%; display:block; width:96%; height:96%; max-width:none; object-fit:contain !important; object-position:center center; border-radius:inherit; transform:none !important; background:#fff;">
+
+                    </div>
+
+
+
+                    <!-- RIGHT: PROJECT INFORMATION -->
+
+                    <div class="project-hero-right">
+
+
+                        <h1 class="project-title">
+
+                            <!-- TEMPLATE: Vul hier de projecttitel in -->
+                            StudyBuddy - UX Design & Interaction Design
+
+                        </h1>
+
+
+
+                        <div class="project-editorial-meta">
+
+                            <span>
+                                <strong>YEAR:</strong>
+                                <!-- TEMPLATE: Jaar --> 2026
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>CLIENT:</strong>
+                                <!-- TEMPLATE: Opdrachtgever --> CMD Breda
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>DISCIPLINE:</strong>
+                                <!-- TEMPLATE: Discipline --> UX Design & Interaction Design 
+                            </span>
+
+                            <span class="meta-dot">
+                                ·
+                            </span>
+
+                            <span>
+                                <strong>TOOLS:</strong>
+                                <!-- TEMPLATE: Tools --> Visual Studio Code, ChatGPT API Key
+                            </span>
+
+                        </div>
+
+
+
+                        <div class="project-intro-text">
+
+                            <p>
+                                <!-- TEMPLATE: Korte projectbeschrijving -->
+                                StudyBuddy is an AI-powered study assistant designed to help students learn more effectively and feel better prepared for exams. By combining tools such as a live chatbot, quiz generator, study planner and concept explainer, the platform brings different parts of the learning process together in one place. The goal is to make studying more personal, structured and less stressful.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     ADDITIONAL VISUALS
+                     ====================================== -->
+
+                <section class="project-visuals-section studybuddy-visuals">
+
+
+                    <h2>
+                        Additional Visuals
+                    </h2>
+
+
+
+                    <div class="project-visuals-grid">
+
+
+                        <!-- IMAGE 1 -->
+
+                        <div class="project-visual" style="border-radius:0 !important; overflow:hidden;">
+
+                            <!-- TEMPLATE: Vervang src met je eerste visual -->
+                            <img src="IMG/Studybuddy2.png"
+                                alt="Project Visual 1" style="border-radius:0 !important; clip-path:none !important;">
+
+                        </div>
+
+
+
+                        <!-- IMAGE 2 -->
+
+                        <div class="project-visual" style="height:380px; border-radius:0 !important; overflow:hidden;">
+
+                            <!-- TEMPLATE: Vervang src met je tweede visual -->
+                            <img src="IMG/studybuddy1.png"
+                                alt="Project Visual 2" style="border-radius:0 !important; clip-path:none !important;">
+
+                        </div>
+
+
+                        <!-- VIDEO 3 -->
+                        <div class="project-visual" style="grid-column:1 / -1; width:min(100%, 760px); height:auto; min-height:0; justify-self:center; overflow:hidden; border-radius:0 !important;">
+
+                            <!-- Plaats je video in de IMG-map met de naam StudyBuddy-video.mp4 -->
+                            <video
+                                src="IMG/AI chatbot assistent video.mov"
+                                controls
+                                autoplay
+                                muted
+                                loop
+                                playsinline
+                                preload="metadata"
+                                aria-label="StudyBuddy projectvideo"
+                                style="width:100%;height:auto;max-height:75vh;object-fit:contain;display:block;margin:0 auto;border-radius:0 !important;">
+                            </video>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+                <!-- ======================================
+                     DIVIDER
+                     ====================================== -->
+
+                <hr class="editorial-divider">
+
+
+
+                <!-- ======================================
+                     PROCESS & REFLECTION
+                     ====================================== -->
+
+                <section class="compact-process">
+
+
+                    <h2 class="compact-label">
+
+                        Process & Reflection
+
+                    </h2>
+
+
+
+                    <div class="compact-copy">
+
+
+                        <p>
+                            <!-- TEMPLATE: Eerste alinea over het proces -->
+                            The process focused on translating students learning needs into a clear and accessible digital platform. I explored how different AI-powered features could work together within one interface, focusing on navigation, usability and a consistent user experience. Special attention went to making the different tools easy to understand and accessible without overwhelming the user.
+                        </p>
+
+
+                        <p>
+                            <!-- TEMPLATE: Tweede alinea over reflectie -->
+                            The final result is an AI-powered study platform that brings multiple learning tools together in one environment. This project allowed me to explore digital product design and how AI can support everyday tasks. I gained a better understanding of how functionality, usability and visual design work together to create a useful digital experience.
+                        </p>
+
+
+                    </div>
+
+
+                </section>
+
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+         ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
